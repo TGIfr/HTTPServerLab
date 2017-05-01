@@ -7,5 +7,5 @@ cd ../../ ; rm libprogbase/ libprogbase.zip -rf
 
 wget -O libprogbase-cpp.zip https://github.com/PublicHadyniak/libprogbase-cpp/archive/master.zip
 unzip libprogbase-cpp.zip -d libprogbase-cpp
-cd libprogbase-cpp/libprogbase-master ; cmake ; sudo make install
+cd libprogbase-cpp/libprogbase-master ; cmake src/..; sudo make install
 cd ../../ ; rm libprogbase/ libprogbase.zip -rf
