@@ -20,7 +20,7 @@ int main(int argc, char * argv[]) {
     chemicals.push_back(Chemical("tetrahydrocannabinol", 314, "Psycho"));
     chemicals.push_back(Chemical("methylcarbinol", 46, "Depressant"));
 
-    const int serverPort = 8007;
+    const int serverPort = 8006;
     TcpListener listener;
     NetMessage message(10000);
     try {
